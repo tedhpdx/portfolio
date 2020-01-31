@@ -9,4 +9,8 @@ router.get('/contact', (req, res) => {
     res.render('contact.ejs')
 });
 
+router.get('/contact', (req, res) => {
+    res.render('contact.ejs')
+})
+
 module.exports = router

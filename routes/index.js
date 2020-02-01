@@ -89,7 +89,73 @@ router.get('/eyesave_mgmt', (req, res) => {
     res.render('work_experience/mgmt/eyesave_mgmt.ejs')
 });
 
+router.get('/food_mgmt', (req, res) => {
+    res.render('work_experience/mgmt/food_mgmt.ejs')
+});
 
+router.get('/portland_state', (req, res) => {
+    res.render('school/portland_state.ejs')
+});
+
+router.get('/new_school', (req, res) => {
+    res.render('school/new_school.ejs')
+});
+
+router.get('/outdoors', (req, res) => {
+    res.render('likes/outdoors/outdoors_index.ejs')
+});
+
+router.get('/camping', (req, res) => {
+    res.render('likes/outdoors/camping.ejs')
+});
+
+router.get('/fishing', (req, res) => {
+    res.render('likes/outdoors/fishing.ejs')
+});
+
+router.get('/foraging', (req, res) => {
+    res.render('likes/outdoors/foraging.ejs')
+});
+
+router.get('/travel', (req, res) => {
+    res.render('likes/travel/travel_index.ejs')
+});
+
+router.get('/british_isles', (req, res) => {
+    res.render('likes/travel/british_isles.ejs')
+});
+
+router.get('/europe', (req, res) => {
+    res.render('likes/travel/europe.ejs')
+});
+
+router.get('/mexico', (req, res) => {
+    res.render('likes/travel/mexico.ejs')
+});
+
+router.get('/middle_east', (req, res) => {
+    res.render('likes/travel/middle_east.ejs')
+});
+
+router.get('/se_asia', (req, res) => {
+    res.render('likes/travel/se_asia.ejs')
+});
+
+router.get('/computers', (req, res) => {
+    res.render('likes/computers/computers_index.ejs')
+});
+
+router.get('/gaming', (req, res) => {
+    res.render('likes/computers/gaming.ejs')
+});
+
+router.get('/hardware', (req, res) => {
+    res.render('likes/computers/hardware.ejs')
+});
+
+router.get('/programming', (req, res) => {
+    res.render('likes/computers/programming.ejs')
+});
 
 
 

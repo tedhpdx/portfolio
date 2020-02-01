@@ -24,10 +24,10 @@ img{
     
 }
   
-  /* Style the links inside the navigation bar */
+  /* home where tldr contact */
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #a8a8a8;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -40,12 +40,12 @@ img{
   font-size: 12px;
   border: none;
   outline: none;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 14px 16px;
   min-width: 190px;
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit;
+  margin: 0; 
 }
 
   /* Change the color of links on hover */
